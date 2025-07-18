@@ -1,0 +1,48 @@
+name: flutter_application_1
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.2.1
+  flutter_svg: ^2.0.10+1
+  intl: ^0.20.2
+  shared_preferences: ^2.2.2
+  share_plus: ^11.0.0
+  url_launcher: ^6.2.5
+  firebase_core: ^3.15.1
+  firebase_auth: ^5.6.2
+  cloud_firestore: ^5.6.11
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/log1.jpg"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/business.jpg
+    - assets/images/technology.jpg
+    - assets/images/politics.jpg
+    - assets/images/health.jpg
+    - assets/images/profile.png
+    - assets/images/logo.png
+    - assets/images/log1.jpg
+    - assets/images/login_avatar.jpg
+    - assets/images/background.jpg
